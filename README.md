@@ -18,6 +18,12 @@ The setup, specifications, price, and usage stories are **illustrative concept c
 
 Open `index.html` in a browser. No build step or dependencies are required.
 
+## Screenshots
+
+| Home | Configuration summary |
+| :---: | :---: |
+| <img width="1867" height="972" alt="Nebula Setups landing page home section" src="https://github.com/user-attachments/assets/58626f30-db94-402f-9c58-98d1d833ff9d" /> | <img width="862" height="841" alt="Nebula Setups configuration summary dialog" src="https://github.com/user-attachments/assets/925fb87f-e529-4087-b73e-156ffa3409d0" /> |
+
 ## Project files
 
 - `index.html`: page content and configuration dialog.
@@ -26,10 +32,6 @@ Open `index.html` in a browser. No build step or dependencies are required.
 - `assets/images/`: hero and product artwork.
 
 To update the copy, edit the Spanish source text in `index.html` and its English counterpart in the `english` map in `script.js`. The English `alt` and accessibility labels are configured separately in the same script.
-
-## Screenshots
-
-Screenshots can be added here after capturing the desktop and mobile views.
 
 ## Credits
 
