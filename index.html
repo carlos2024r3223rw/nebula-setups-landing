@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Nebula Setups — Tu Estación de Cloud Gaming Definitiva</title>
   <meta name="description" content="Transforma cualquier portátil básico en una estación de juegos de alta gama con el Nebula Cloud-Station Bundle. Monitor ultrawide, teclado mecánico y ratón de precisión." />
+  <meta name="theme-color" content="#07080d" />
   <meta name="keywords" content="cloud gaming, setup gaming, monitor ultrawide, teclado mecánico, ratón gaming, Nebula Setups" />
 
   <!-- Google Fonts -->
@@ -13,14 +14,14 @@
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
 
   <!-- Stylesheet -->
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css?v=nebula-2" />
 </head>
 <body>
 
   <!-- ===================== NAVBAR ===================== -->
   <nav class="navbar" id="navbar">
     <div class="navbar__container">
-      <a href="#" class="navbar__logo" id="logo">
+      <a href="#hero" class="navbar__logo" id="logo">
         <span class="navbar__logo-icon">✦</span>
         <span class="navbar__logo-text">NEBULA<span class="accent">SETUPS</span></span>
       </a>
@@ -29,10 +30,10 @@
         <li><a href="#features" class="navbar__link">Ventajas</a></li>
         <li><a href="#bundle" class="navbar__link">El Bundle</a></li>
         <li><a href="#specs" class="navbar__link">Specs</a></li>
-        <li><a href="#testimonials" class="navbar__link">Opiniones</a></li>
+        <li><a href="#testimonials" class="navbar__link">Ideas de juego</a></li>
       </ul>
-      <a href="#cta" class="navbar__cta" id="nav-cta">Reservar mi Setup</a>
-      <button class="navbar__toggle" id="nav-toggle" aria-label="Abrir menú de navegación">
+      <div class="navbar__actions"><div class="language-switch" role="group" aria-label="Idioma / Language"><button type="button" data-lang="es" aria-pressed="true">ES</button><button type="button" data-lang="en" aria-pressed="false">EN</button></div><a href="#cta" class="navbar__cta" id="nav-cta">Ver el concepto</a></div>
+      <button class="navbar__toggle" id="nav-toggle" aria-label="Abrir menú de navegación" aria-expanded="false" aria-controls="nav-links">
         <span></span>
         <span></span>
         <span></span>
@@ -51,8 +52,8 @@
           Cloud Gaming Ready
         </span>
         <h1 class="hero__title" id="hero-title">
-          Tu estación de juegos <span class="gradient-text">definitiva</span>,<br />
-          sin hardware costoso.
+          Tu espacio de juego <span class="gradient-text">en otra órbita</span>.<br />
+          Desde cualquier portátil.
         </h1>
         <p class="hero__subtitle" id="hero-subtitle">
           Transforma cualquier portátil básico en un setup gaming de alta gama.
@@ -60,7 +61,7 @@
         </p>
         <div class="hero__actions">
           <a href="#cta" class="btn btn--primary btn--glow" id="hero-cta">
-            <span>Armar mi Estación</span>
+            <span>Explorar el setup</span>
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
           </a>
           <a href="#bundle" class="btn btn--ghost" id="hero-explore">
@@ -75,7 +76,7 @@
           <div class="hero__stat-divider"></div>
           <div class="hero__stat">
             <span class="hero__stat-number" data-count="1">0</span><span class="hero__stat-suffix">ms</span>
-            <span class="hero__stat-label">Latencia</span>
+            <span class="hero__stat-label">Respuesta del panel</span>
           </div>
           <div class="hero__stat-divider"></div>
           <div class="hero__stat">
@@ -116,7 +117,7 @@
             <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
           </div>
           <h3 class="feature-card__title">Cero Lag Visual</h3>
-          <p class="feature-card__text">Monitor de 165Hz con 1ms de respuesta. Cada frame llega perfecto desde la nube a tu pantalla.</p>
+          <p class="feature-card__text">Panel de 165 Hz y 1 ms de respuesta declarado. La fluidez del streaming depende de tu conexión y servicio.</p>
         </div>
 
         <div class="feature-card" id="feature-2">
@@ -132,7 +133,7 @@
             <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
           </div>
           <h3 class="feature-card__title">Build Premium</h3>
-          <p class="feature-card__text">Materiales de ingeniería aeroespacial. Cada pieza tiene un acabado que no encontrarás en ningún otro bundle.</p>
+          <p class="feature-card__text">Un concepto cuidado hasta el último detalle: monitor inmersivo, teclado compacto y ratón ligero.</p>
         </div>
 
         <div class="feature-card" id="feature-4">
@@ -140,7 +141,7 @@
             <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
           </div>
           <h3 class="feature-card__title">Plug & Play</h3>
-          <p class="feature-card__text">Conecta, abre tu plataforma cloud favorita y juega. Sin drivers, sin complicaciones, sin esperas.</p>
+          <p class="feature-card__text">Conecta tu equipo y abre tu plataforma cloud favorita. La compatibilidad depende de cada dispositivo y servicio.</p>
         </div>
       </div>
     </div>
@@ -246,43 +247,43 @@
   <!-- ===================== TESTIMONIALS ===================== -->
   <section class="testimonials" id="testimonials">
     <div class="section__container">
-      <span class="section__tag">Opiniones</span>
-      <h2 class="section__title">Lo que dicen nuestros <span class="gradient-text">gamers</span></h2>
-      <p class="section__subtitle">Cloud gamers que ya transformaron su experiencia.</p>
+      <span class="section__tag">Formas de jugar</span>
+      <h2 class="section__title">Un setup, <span class="gradient-text">más posibilidades</span></h2>
+      <p class="section__subtitle">Tres ideas para imaginar la experiencia. Son ejemplos creativos de esta demo.</p>
 
       <div class="testimonials__grid">
         <div class="testimonial-card" id="testimonial-1">
-          <div class="testimonial-card__stars">★★★★★</div>
-          <p class="testimonial-card__text">"Jugar desde GeForce NOW en un monitor ultrawide se siente como tener una RTX 4090. El bundle Nebula cambió todo mi concepto de cloud gaming."</p>
+          <div class="testimonial-card__stars">01 / CLOUD</div>
+          <p class="testimonial-card__text">"Imagina tus mundos favoritos en formato ultrawide, con más espacio para explorar y una mesa lista para jugar."</p>
           <div class="testimonial-card__author">
             <div class="testimonial-card__avatar">DK</div>
             <div>
-              <span class="testimonial-card__name">Daniel K.</span>
-              <span class="testimonial-card__role">Streamer · Cloud Gamer</span>
+              <span class="testimonial-card__name">Pantalla inmersiva</span>
+              <span class="testimonial-card__role">Escenario conceptual</span>
             </div>
           </div>
         </div>
 
         <div class="testimonial-card" id="testimonial-2">
-          <div class="testimonial-card__stars">★★★★★</div>
-          <p class="testimonial-card__text">"El teclado es una delicia. Los switches lineales son suaves y rápidos, y el ratón es absurdamente preciso para ser tan liviano. Siento que subo de nivel."</p>
+          <div class="testimonial-card__stars">02 / DESK</div>
+          <p class="testimonial-card__text">"Una estación compacta para trabajar de día y disfrutar tus partidas al terminar: cambia de modo sin cambiar de escritorio."</p>
           <div class="testimonial-card__author">
             <div class="testimonial-card__avatar">MR</div>
             <div>
-              <span class="testimonial-card__name">María R.</span>
-              <span class="testimonial-card__role">Gamer Competitiva</span>
+              <span class="testimonial-card__name">Escritorio versátil</span>
+              <span class="testimonial-card__role">Escenario conceptual</span>
             </div>
           </div>
         </div>
 
         <div class="testimonial-card" id="testimonial-3">
-          <div class="testimonial-card__stars">★★★★★</div>
-          <p class="testimonial-card__text">"Solo tengo un Chromebook. Con el Nebula Cloud-Station y Xbox Cloud Gaming, estoy jugando títulos AAA a 1440p como si nada. Increíble."</p>
+          <div class="testimonial-card__stars">03 / ANYWHERE</div>
+          <p class="testimonial-card__text">"Tu portátil puede ser el punto de partida. Con un servicio compatible y buena conexión, el juego llega a tu pantalla."</p>
           <div class="testimonial-card__author">
             <div class="testimonial-card__avatar">LP</div>
             <div>
-              <span class="testimonial-card__name">Luis P.</span>
-              <span class="testimonial-card__role">Gamer Casual</span>
+              <span class="testimonial-card__name">Juego en la nube</span>
+              <span class="testimonial-card__role">Escenario conceptual</span>
             </div>
           </div>
         </div>
@@ -295,21 +296,21 @@
     <div class="cta-section__glow"></div>
     <div class="section__container">
       <div class="cta-section__content">
-        <span class="section__tag">Unidades Limitadas</span>
+        <span class="section__tag">Concepto interactivo</span>
         <h2 class="cta-section__title">¿Listo para elevar tu <span class="gradient-text">cloud gaming</span>?</h2>
-        <p class="cta-section__text">El Nebula Cloud-Station Bundle está disponible en una edición limitada. Reserva el tuyo antes de que se agoten.</p>
+        <p class="cta-section__text">Explora cómo sería configurar el Nebula Cloud-Station Bundle. Esta experiencia es una demo de portafolio.</p>
         <div class="cta-section__price">
-          <span class="cta-section__price-old">$1,299</span>
+          
           <span class="cta-section__price-current">$899</span>
-          <span class="cta-section__price-save">Ahorras $400</span>
+          <span class="cta-section__price-save">Precio ilustrativo</span>
         </div>
-        <a href="#" class="btn btn--primary btn--glow btn--xl" id="final-cta">
-          <span>Reservar mi Setup</span>
+        <button type="button" class="btn btn--primary btn--glow btn--xl" id="final-cta">
+          <span>Configurar demo</span>
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
-        </a>
+        </button>
         <p class="cta-section__limited">
           <span class="cta-section__limited-dot"></span>
-          Solo quedan <strong>47 unidades</strong> disponibles
+          Simulación local · sin compra ni envío
         </p>
       </div>
     </div>
@@ -320,7 +321,7 @@
     <div class="footer__container">
       <div class="footer__top">
         <div class="footer__brand">
-          <a href="#" class="navbar__logo">
+          <a href="#hero" class="navbar__logo">
             <span class="navbar__logo-icon">✦</span>
             <span class="navbar__logo-text">NEBULA<span class="accent">SETUPS</span></span>
           </a>
@@ -334,21 +335,7 @@
             <li><a href="#features">Ventajas</a></li>
           </ul>
         </div>
-        <div class="footer__links-group">
-          <h4>Soporte</h4>
-          <ul>
-            <li><a href="#">FAQ</a></li>
-            <li><a href="#">Envíos</a></li>
-            <li><a href="#">Garantía</a></li>
-          </ul>
-        </div>
-        <div class="footer__links-group">
-          <h4>Legal</h4>
-          <ul>
-            <li><a href="#">Privacidad</a></li>
-            <li><a href="#">Términos</a></li>
-          </ul>
-        </div>
+        <div class="footer__links-group footer__links-group--note"><h4>Sobre esta demo</h4><p>Proyecto conceptual de portafolio. Productos, especificaciones y precio son ilustrativos; no hay venta real.</p></div>
       </div>
       <div class="footer__bottom">
         <p>&copy; 2026 Nebula Setups. Todos los derechos reservados.</p>
@@ -356,7 +343,36 @@
     </div>
   </footer>
 
+  <dialog class="config-dialog" id="config-dialog" aria-labelledby="config-title">
+    <div class="config-dialog__shell">
+      <button type="button" class="config-dialog__close" id="config-close" aria-label="Cerrar">&times;</button>
+      <span class="section__tag">Demo interactiva</span>
+      <h2 id="config-title">Tu estación, a tu manera</h2>
+      <p class="config-dialog__intro">Elige un estilo y descubre tu resumen. No se envían datos ni se realiza ninguna compra.</p>
+      <form id="config-form">
+        <fieldset>
+          <legend>Elige la iluminación</legend>
+          <div class="config-options">
+            <label><input type="radio" name="lighting" value="cyan" checked /><span>Cyan / Nebula</span></label>
+            <label><input type="radio" name="lighting" value="violet" /><span>Violeta / Orbit</span></label>
+            <label><input type="radio" name="lighting" value="mint" /><span>Menta / Pulse</span></label>
+          </div>
+        </fieldset>
+        <label class="config-dialog__select-label" for="config-use">Tu estilo de juego</label>
+        <select id="config-use" name="use"><option value="cloud">Cloud gaming</option><option value="hybrid">Trabajo + juego</option><option value="immersive">Aventura inmersiva</option></select>
+        <button class="btn btn--primary" type="submit">Ver mi configuración</button>
+      </form>
+      <div id="config-result" class="config-result" role="status" hidden>
+        <span class="config-result__eyebrow">Configuración creada</span>
+        <h3>Nebula Cloud-Station</h3>
+        <p id="config-summary"></p>
+        <p class="config-result__note">Vista previa de portafolio. No se ha realizado ninguna reserva ni cobro.</p>
+        <button type="button" class="btn btn--ghost" id="config-again">Cambiar selección</button>
+      </div>
+    </div>
+  </dialog>
+
   <!-- JavaScript -->
-  <script src="script.js"></script>
+  <script src="script.js?v=nebula-2"></script>
 </body>
 </html>
